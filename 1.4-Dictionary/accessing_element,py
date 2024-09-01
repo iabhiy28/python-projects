@@ -1,0 +1,18 @@
+#Acccesing dictionary elements withf
+Dict = {1: 'Abhishek', 'name': 'Yadav', 3: 'Yadav'} 
+## 1)We can access with the help of key like
+print(Dict[1])
+
+## second way to access the elemets is with the help of in boild .get() function
+print("Here i have access the elment with help of .get() function")
+print(Dict.get(1))
+
+##Here i have access the elements of the nested dictionary
+# Creating a Dictionary 
+Dict = {'Dict1': {1: 'Geeks'}, 
+        'Dict2': {'Name': 'For'}} 
+  
+# Accessing element using key 
+print(Dict['Dict1']) 
+print(Dict['Dict1'][1]) 
+print(Dict['Dict2']['Name']) 
